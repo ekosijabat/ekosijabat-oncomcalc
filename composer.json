@@ -1,6 +1,7 @@
 {
     "name": "ekosijabat/oncomcalc",
     "description": "This demo package will do some calculations",
+    "license": "MIT",
     "authors": [
         {
             "name": "Eko Lesmana",
