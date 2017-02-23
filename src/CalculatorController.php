@@ -1,6 +1,6 @@
 <?php
 
-namespace Devdojo\Calculator;
+namespace Ekosijabat\Oncomcalc;
 
 use Illuminate\Http\Request;
 #use App\Http\Request;
