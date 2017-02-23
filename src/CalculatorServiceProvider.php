@@ -1,6 +1,6 @@
 <?php
 
-namespace Devdojo\Calculator;
+namespace Ekosijabat\Oncomcalc;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,7 +24,7 @@ class CalculatorServiceProvider extends ServiceProvider
 	*/
 	public function register()
 	{
-		$this->app->make('Devdojo\Calculator\CalculatorController');
+		$this->app->make('Ekosijabat\Oncomcalc\CalculatorController');
 		$this->loadViewsFrom(__DIR__.'/views', 'calculator');
 	}
 }
